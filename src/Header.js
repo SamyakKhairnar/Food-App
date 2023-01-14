@@ -7,11 +7,12 @@ function Header() {
   return (
     <nav className="nav-container">
       <img className='logo' src={Logo} alt="Logo" />
+      <h1 className='title'>Food App</h1>
       <ul className='navigation'>
-        <li className='nav-menu'>Home</li>
-        <li className='nav-menu'>About</li>
-        <li className='nav-menu'>Contact</li>
-        <li className='nav-menu'>Cart</li>
+        <li className='nav-menu'><a>Home</a></li>
+        <li className='nav-menu'><a>About</a></li>
+        <li className='nav-menu'><a>Contact</a></li>
+        <li className='nav-menu'><a>Cart</a></li>
       </ul>
     </nav>
   );
