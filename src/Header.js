@@ -1,5 +1,5 @@
 import React from 'react'
-import Logo from './logofoodapp.png'
+import Logo from './logofoodapp.svg'
 import './index.css';
 
 
@@ -8,10 +8,10 @@ function Header() {
     <nav className="nav-container">
       <img className='logo' src={Logo} alt="Logo" />
       <ul className='navigation'>
-        <li>Home</li>
-        <li>About</li>
-        <li>Contact</li>
-        <li>Cart</li>
+        <li className='nav-menu'>Home</li>
+        <li className='nav-menu'>About</li>
+        <li className='nav-menu'>Contact</li>
+        <li className='nav-menu'>Cart</li>
       </ul>
     </nav>
   );

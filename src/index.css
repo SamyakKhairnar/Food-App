@@ -1,16 +1,24 @@
 body{
-    background-color: burlywood;
+    background-color: white;
 }
 .logo{
-    width: 25%;
+    width: 12%;
+    padding: 0px 10px;
+    cursor: pointer;
 }
 .nav-container{
     width: 100%;
-    background-color: greenyellow;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    /* justify-content: center; */
-    align-items: center;
-    align-content: center;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+}
+.navigation{
+    list-style: none;
+    display: flex;
+}
+.nav-menu{
+    padding: 0px 10px;
+    font-size: x-large;
 }
